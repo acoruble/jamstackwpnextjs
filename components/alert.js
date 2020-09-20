@@ -24,18 +24,18 @@ export default function Alert({ preview }) {
               to exit preview mode.
             </>
           ) :
-          (
-            <>
-              The source code for this blog is not {' '}
-              <a
-                href={`https://github.com/zeit/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
-                className="underline hover:text-success duration-200 transition-colors"
-              >
-                available on GitHub
-              </a>
-              .
-            </>
-          )
+          // (
+          //   <>
+          //     The source code for this blog is not {' '}
+          //     <a
+          //       href={`https://github.com/zeit/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
+          //       className="underline hover:text-success duration-200 transition-colors"
+          //     >
+          //       available on GitHub
+          //     </a>
+          //     .
+          //   </>
+          // )
           }
         </div>
       </Container>
