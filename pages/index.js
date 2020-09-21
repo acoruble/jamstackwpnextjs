@@ -15,7 +15,7 @@ export default function Index({ allPosts: { edges }, preview }) {
     <>
       <Layout preview={preview}>
         <Head>
-          <title>Mon blog fait en Jamstack avec {CMS_NAME} et next.js</title>
+          <title> Mon blog fait en Jamstack avec {CMS_NAME} et next.js</title>
         </Head>
         <Container>
           <Intro />
