@@ -35,13 +35,13 @@ export default function Post({ post, posts, preview }) {
                     {post.title} | Mon blog fait en Jamstack avec {CMS_NAME} et next.js
                 </title>
                 <meta
-                  // property="og:image"
-                  // content={post.featuredImage?.node?.sourceUrl}
+                  property="og:image"
+                  content={post.featuredImage?.node?.sourceUrl}
                 />
               </Head>
               <PostHeader
                 title={post.title}
-               // coverImage={post.featuredImage.node}
+                coverImage={post.featuredImage.node}
                 date={post.date}
                 author={post.author.node}
                 categories={post.categories}
