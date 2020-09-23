@@ -20,18 +20,18 @@ export default function HeroPost({
           <h3 className="mb-4 text-3xl lg:text-5xl leading-tight">
             <Link as={`/posts/${slug}`} href="/posts/[slug]">
               <a
-                className="accent-2 hover:underline"
+                className="text-accent-2 font-Title font-bold hover:underline"
                 dangerouslySetInnerHTML={{ __html: title }}
               />
             </Link>
           </h3>
-          <div className="mb-4 md:mb-0 text-lg">
+          <div className="font-Text mb-4 md:mb-0 text-lg">
             <Date dateString={date} />
           </div>
         </div>
         <div>
           <div
-            className="text-lg leading-relaxed mb-4"
+            className="font-Text text-lg leading-relaxed mb-4"
             dangerouslySetInnerHTML={{ __html: excerpt }}
           />
         </div>
