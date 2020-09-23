@@ -21,7 +21,7 @@ export default function PostHeader({
       <div className="max-w-2xl mx-auto ">
         <div className="block md:hidden mb-6">
         </div>
-        <div className="mb-6 text-lg flex justify-center">
+        <div className="font-Text mb-6 text-lg flex justify-center">
           publié le : <Date dateString={date} />
           <Categories categories={categories} />
         </div>
